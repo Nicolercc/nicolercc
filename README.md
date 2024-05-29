@@ -49,4 +49,4 @@ Thank you for reading! 🙋🏽‍♀️
 ---
 
 ## 📌 Pinned
-[![Pinned Repo](https://github-readme-stats.vercel.app/api/pin/?username=Nicolercc&repo=REPO_NAME&theme=radical)](https://github.com/Nicolercc/Impactify_fe)
+[![Pinned Repo](https://github-readme-stats.vercel.app/api/pin/?username=Nicolercc&repo=impactify_fe&theme=radical)](https://github.com/Nicolercc/Impactify_fe)
