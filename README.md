@@ -15,7 +15,7 @@
 ---
 
 ## 🔎 Knowledge 📖
-I use VSCode and the command line for code creation, meticulously planning my projects on Figma and breaking them down on Trello. I also enjoy attending in-person workshops and taking online courses on platforms like Coursera. These tools and experiences help me expand my skills and tackle challenges with innovative solutions.
+I leverage VSCode and the command line for efficient code creation, meticulously planning my projects in Figma and breaking them down into manageable tasks using Trello. I actively enhance my skills by attending in-person workshops and taking online courses on platforms like Coursera. These tools and experiences empower me to expand my expertise and devise innovative solutions to complex challenges.
 
 ### Languages and Tools:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -35,9 +35,6 @@ I use VSCode and the command line for code creation, meticulously planning my pr
 ## 📉 GitHub Stats
 ![Nicole's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nicolercc&show_icons=true&theme=radical)
 
-## 🎮 My Contributions Game 🎮
-![Snake Game](https://github.com/Nicolercc/Nicolercc/blob/output/github-contribution-grid-snake.svg)
-
 ---
 
 ## 📝 Contact Me 📝
@@ -52,4 +49,4 @@ Thank you for reading! 🙋🏽‍♀️
 ---
 
 ## 📌 Pinned
-[![Pinned Repo](https://github-readme-stats.vercel.app/api/pin/?username=Nicolercc&repo=REPO_NAME&theme=radical)](https://github.com/Nicolercc/REPO_NAME)
+[![Pinned Repo](https://github-readme-stats.vercel.app/api/pin/?username=Nicolercc&repo=REPO_NAME&theme=radical)](https://github.com/Nicolercc/Impactify_fe)
