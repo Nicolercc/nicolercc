@@ -3,14 +3,14 @@
 ### About Me ✨
 > "Empowering voices and driving change through technology"
 
-- **Who am I**: Journalist turned full-stack developer with a passion for giving a voice to the voiceless through tech.
+- **Who am I**: Journalist turned full-stack developer with a passion for amplifying voices through tech.
 - **Shell**: Iterm2
 - **Loves**: Animals 🐕, Books 📚, Island Living 🌴
 - **Pronouns**: She/Her
-- **Location**: Queens, New York (originally from the Dominican Republic)
-- **Languages**: HTML, CSS, JavaScript, React, TypeScript, Python
+- **Location**: New York , New York 
+- **Languages**: HTML, CSS, JavaScript, React
 - **Hobbies**: Reading, Dancing, Biking, Programming, Gardening, Photography,
-- **Learning**: Astro.js, cool frameworks for full-stack development
+- **Learning**: Astro.js, among other cool frameworks for full-stack development
   
 ---
 
