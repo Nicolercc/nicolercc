@@ -3,7 +3,7 @@
 ### About Me ✨
 > "Empowering voices and driving change through technology"
 
-- **Who am I**: Journalist turned full-stack developer with a passion for amplifying voices through tech.
+- **Who am I**: Full-stack developer with a background in media and a passion for amplifying voices through tech.
 - **Shell**: Iterm2
 - **Loves**: Animals 🐕, Books 📚, Island Living 🌴
 - **Pronouns**: She/Her
