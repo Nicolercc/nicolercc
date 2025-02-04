@@ -1,8 +1,5 @@
 # Hi there, I'm Nicole 👋  
 
-![Profile Banner](assets/banner.png)
-
-
 ## About Me ✨  
 > **"Empowering voices and driving change through technology."**  
 
