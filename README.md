@@ -1,52 +1,61 @@
-# Hi there, I'm Nicole 👋
+# Hi there, I'm Nicole 👋  
 
-### About Me ✨
-> "Empowering voices and driving change through technology"
+![Profile Banner](https://via.placeholder.com/1200x400?text=Welcome+to+My+GitHub)  
 
-- **Who am I**: Full-stack developer with a background in media and a passion for amplifying voices through tech.
-- **Shell**: Iterm2
-- **Loves**: Animals 🐕, Books 📚, Island Living 🌴
-- **Pronouns**: She/Her
-- **Location**: New York , New York 
-- **Languages**: HTML, CSS, JavaScript, React
-- **Hobbies**: Reading, Dancing, Biking, Programming, Gardening, Photography,
-- **Learning**: Astro.js, among other cool frameworks for full-stack development
-  
----
+## About Me ✨  
+> **"Empowering voices and driving change through technology."**  
 
-## 🔎 Knowledge 📖
-I leverage VSCode and the command line for efficient code creation, meticulously planning my projects in Figma and breaking them down into manageable tasks using Trello. I actively enhance my skills by attending in-person workshops and taking online courses on platforms like Coursera. These tools and experiences empower me to expand my expertise and devise innovative solutions to complex challenges.
+🚀 **Full-stack developer with a media background, dedicated to leveraging technology to amplify voices and create meaningful digital experiences.**  
 
-### Languages and Tools:
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### 🛠 **Tech Stack & Tools**  
+- **Shell**: iTerm2  
+- **Loves**: Animals 🐕 | Books 📚 | Island Living 🌴  
+- **Location**: New York, NY  
+- **Languages**: HTML, CSS, JavaScript, React, Python, TypeScript, Astro  
+- **Hobbies**: Reading 📖 | Dancing 💃 | Biking 🚴‍♀️ | Programming 💻 | Gardening 🌱 | Photography 📸 | Traveling ✈️  
+- **Learning**: Generative AI 🤖  
 
 ---
 
-## 📉 GitHub Stats
-![Nicole's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nicolercc&show_icons=true&theme=radical)
+## 🔎 Knowledge 📖  
+I use **VSCode** and the **command line** for efficient coding, meticulously planning my projects in **Figma**, and breaking down tasks using **Trello**. I actively enhance my skills through **workshops** and **online courses** on platforms like Coursera, constantly learning to solve complex challenges.  
+
+### 🔧 **Languages and Tools:**  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)  
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)  
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
 
 ---
 
-## 📝 Contact Me 📝
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nicolercc)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nicolercc)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nicolerodriguezcab@gmail.com)
+## 📈 GitHub Stats  
+![Nicole's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Nicolercc&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolercc&layout=compact&theme=radical)  
+![Profile Views](https://komarev.com/ghpvc/?username=Nicolercc&color=blueviolet)  
 
 ---
 
-Thank you for reading! 🙋🏽‍♀️
+## 📌 Pinned Projects  
+🔹 **[Impactify](https://github.com/Nicolercc/Impactify)** – A multi-user activism hub for staying informed, discovering local events, and supporting causes.  
+🔹 **[YouTube Clone](https://github.com/Nicolercc/youtube-clone)** – A YouTube-inspired project demonstrating API integration and interactive UI.  
+🔹 **[Project Management Site](https://github.com/Nicolercc/project-management)** – A dynamic site for managing services like asbestos abatement, mold remediation, and cleaning services.  
 
 ---
 
-## 📌 Pinned
+## 📝 Contact Me  
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nicolercc)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nicolercc)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nicolerodriguezcab@gmail.com)  
 
+---
+
+🙌 **Thanks for visiting my profile! Feel free to reach out! 🚀**  
