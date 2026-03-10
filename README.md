@@ -37,10 +37,7 @@ That lens shapes everything I build.
 **[Impactify](https://github.com/Nicolercc/Impactify)**
 A multi-user activism hub — because staying informed and actually doing something about it are two different problems, and I wanted to solve both in one place. Users can track causes, find local events, and connect with people who give a damn.
 
-**[YouTube Clone](https://github.com/Nicolercc/youtube-clone)**
-Built this to really understand how video platforms *work* under the hood — API integration, dynamic rendering, the whole thing. Coming from media, I had opinions. Turns out rebuilding something is the fastest way to understand why it was built that way.
-
-**[Project Management Site](https://github.com/Nicolercc/project-management)**
+**[Elite Global Cleaning Services](https://github.com/Nicolercc/project-management)**
 A full service management platform for a specialty contractor (asbestos abatement, mold remediation, cleaning). Proof that "unsexy" industries still need good software.
 
 ---
