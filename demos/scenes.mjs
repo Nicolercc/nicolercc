@@ -40,6 +40,11 @@ const scenes = {
     await d.start('https://ruvia.vercel.app');
     await d.click(p.getByRole('button', { name: 'Enter review workspace' }), { pause: 800 });
     await d.overlay();
+    await p.getByText('Seeded demo only').waitFor({ timeout: 15000 });
+    await d.caption('The public demo runs on seeded data, and <b>the badge says so</b>.');
+    const badge = await p.locator('.mode-badge').boundingBox();
+    await d.moveTo(badge.x + badge.width / 2, badge.y + badge.height / 2);
+    await d.wait(2200);
     await d.caption('A job description and three resumes go in.');
     await d.click(p.getByRole('button', { name: 'Load demo job' }), { pause: 500 });
     await d.click(p.getByRole('button', { name: 'Load demo candidates' }), { pause: 500 });
