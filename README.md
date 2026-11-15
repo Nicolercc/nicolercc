@@ -28,26 +28,33 @@ flowchart LR
 
 ## Selected work
 
-<!-- When the GIFs exist, add one under each project heading:
-     <img src="assets/vantage.gif" width="640" alt="Vantage generating a cited brief"> -->
-
 ### [Vantage](https://github.com/Nicolercc/vantage) · [live demo](https://conflict-analysis-vantage.vercel.app)
+<a href="https://conflict-analysis-vantage.vercel.app"><img src="assets/vantage.gif" width="720" alt="Vantage brief: key facts cite retrieved reporting, unsourced context is labelled model background"></a>
+
 Conflict briefs from live international news. Next.js · TypeScript · RAG · Claude
 → Claude keeps only the claims it can tie to a retrieved source. Anything else is labelled as background knowledge.
 
 ### [Ruvia](https://github.com/Nicolercc/ruvia) · [live demo](https://ruvia.vercel.app)
+<a href="https://ruvia.vercel.app"><img src="assets/ruvia.gif" width="720" alt="Ruvia review: deterministic score, criterion-by-criterion resume evidence, recruiter decides"></a>
+
 Evidence-first recruiting review. FastAPI · React · TypeScript · Claude
 → The LLM analyzes, deterministic code scores, and a human decides. Every supported claim cites resume evidence.
 
 ### [Sano](https://github.com/Nicolercc/Sano) · [live demo](https://sano-nine.vercel.app)
+<a href="https://sano-nine.vercel.app"><img src="assets/sano.gif" width="720" alt="Sano profile: official NYC inspection data shown separately from review context"></a>
+
 Plain-language context for NYC restaurant inspection grades. Next.js · Python · NYC open data
 → Official data stays visually separate from derived signals. Includes a methodology page and repeatable accessibility checks.
 
 ### [Code4Kidz](https://github.com/Nicolercc/code4kidz) · [live demo](https://code4kidz-six.vercel.app)
+<a href="https://code4kidz-six.vercel.app"><img src="assets/code4kidz.gif" width="720" alt="Code4Kidz lesson: a near-miss answer is rejected, the correct one passes"></a>
+
 HTML/CSS course for kids 7–10 with a live editor. React · Vite · Zustand
 → I audited an AI-built prototype and re-engineered it: fixed 29 of 123 answer checks, got to 0 axe violations, and enforced both in CI.
 
 ### [Sala](https://github.com/Nicolercc/Sala) · [live demo](https://sala-privacy-board.netlify.app)
+<a href="https://sala-privacy-board.netlify.app"><img src="assets/sala.gif" width="720" alt="Sala: trying to send a patient name to the waiting-room board is blocked"></a>
+
 Privacy-first clinic check-in. React · TypeScript
 → Data reaches the waiting-room board only through an allow-list projection. Tests fail if a sensitive field leaks.
 
