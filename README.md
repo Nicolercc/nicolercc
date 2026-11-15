@@ -59,6 +59,8 @@ Privacy-first clinic check-in. React · TypeScript
 → Data reaches the waiting-room board only through an allow-list projection. Tests fail if a sensitive field leaks.
 
 ### [jt](https://github.com/Nicolercc/jt)
+<a href="https://github.com/Nicolercc/jt"><img src="assets/jt.gif" alt="jt terminal demo: a model's 97%-confident onsite proposal for a rejected application is held for review, and a manual log past a terminal state is refused"></a>
+
 Local-first job tracker CLI. Python · SQLite · event sourcing
 → Uses an append-only event log. The LLM can propose changes but never commit them, and evals track its classification accuracy.
 
