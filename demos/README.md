@@ -14,4 +14,5 @@ cp out/*.gif ../assets/
 
 - `lib.mjs`: recorder helpers: cursor and caption overlay, smooth scrolling, `fastForward()` for model calls and onboarding
 - `scenes.mjs`: one function per project
+- `jt/jt.tape`: the jt terminal demo, recorded with [vhs](https://github.com/charmbracelet/vhs) (`brew install vhs`, then `cd jt && vhs jt.tape`). `jt/seed.sh` fills a throwaway database with fictional companies, so the recording never touches real data.
 - `encode.mjs`: cuts the initial page load, speeds up `fastForward` spans, and exports an MP4 plus a 720px GIF
