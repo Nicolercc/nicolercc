@@ -1,0 +1,49 @@
+name: Re-record demo GIFs
+
+# Re-records the profile GIFs against the live sites and opens a pull request with the result.
+# Manual only: the Vantage scene runs a real briefing, which costs a model call.
+on:
+  workflow_dispatch:
+    inputs:
+      scenes:
+        description: "Scenes to record (space-separated): sala sano ruvia vantage code4kidz"
+        default: "sala sano ruvia vantage code4kidz"
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  record:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: demos
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: brew install ffmpeg gifski
+      - run: npm ci
+      - run: npx playwright install chromium
+      - name: Record and encode
+        env:
+          SCENES: ${{ inputs.scenes }}
+        run: |
+          read -ra names <<< "$SCENES"
+          node scenes.mjs "${names[@]}"
+          node encode.mjs "${names[@]}"
+          cp out/*.gif ../assets/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: demo-recordings
+          path: demos/out/
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: demos/re-record
+          title: Re-record demo GIFs
+          commit-message: Re-record demo GIFs against the live sites
+          body: Recorded by the Re-record demo GIFs workflow. Check each GIF before merging; the MP4s are attached to the run as an artifact.
+          add-paths: assets/*.gif
