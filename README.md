@@ -21,10 +21,8 @@ Every number below links to the README section or test suite that backs it.
 | Project | What the tests and evals show | Receipt |
 |---|---|---|
 | **Vantage** | Deterministic quote checks alone stop **8 of 11** unsupported claims on a hand-labelled set, before a second model reviews what's left. **391 tests**, plus axe browser tests at phone and desktop width in CI. | [decisions](https://github.com/Nicolercc/vantage#key-engineering-decisions) · [tests](https://github.com/Nicolercc/vantage#testing-and-quality) |
-| **Ruvia** | The model never produces the score; Python does. A forged-evidence API test proves every claim has to quote the resume. **61 tests**, `pip-audit` and `npm audit` clean. | [decisions](https://github.com/Nicolercc/ruvia#key-engineering-decisions) · [tests](https://github.com/Nicolercc/ruvia#testing-and-quality) |
 | **jt** | **125 tests** on Python 3.11 and 3.12 with mypy. The classifier eval reports precision and recall with 95% intervals and tracks wrong terminal-state commits (target: zero). | [invariants](https://github.com/Nicolercc/jt#the-five-invariants) · [eval](https://github.com/Nicolercc/jt#measuring-the-classifier) |
 | **Code4Kidz** | Audited an AI-built prototype: answer checks failed **29 of 123** cases, and every screen had **3–6** axe violations. Now **0**, enforced in CI. | [audit](https://github.com/Nicolercc/code4kidz#how-this-was-built) |
-| **Sala** | **11 written privacy rules**, each mapped to the test that enforces it. **65 unit and browser tests**, with axe on every route and check-in step. | [rules](https://github.com/Nicolercc/Sala#privacy-requirements) · [tests](https://github.com/Nicolercc/Sala#testing) |
 | **Sano** | Rules, not a model: every score can be reproduced from a [published formula](https://sano-nine.vercel.app/methodology), and a seed-integrity test fails if the app and the scorer ever disagree. | [decisions](https://github.com/Nicolercc/Sano#key-engineering-decisions) · [tests](https://github.com/Nicolercc/Sano#testing-and-quality) |
 
 ## Selected work
@@ -39,14 +37,6 @@ Every number below links to the README section or test suite that backs it.
 Type a conflict, get a brief built from live international reporting in about a minute.
 **The decision:** provenance belongs to code, not the model. Claude refers to sources only by ID, and the publisher, URL and date come from retrieval. Anything without a source is labelled as model background.
 <sub>React · TypeScript · Express · Postgres · OpenAPI → Zod · RAG · Claude</sub>
-
-#### [Ruvia](https://github.com/Nicolercc/ruvia): recruiting review where a human decides
-[![live demo](https://img.shields.io/website?url=https%3A%2F%2Fruvia.vercel.app&label=live%20demo&style=flat-square)](https://ruvia.vercel.app) [![CI](https://github.com/Nicolercc/ruvia/actions/workflows/ci.yml/badge.svg)](https://github.com/Nicolercc/ruvia/actions/workflows/ci.yml)
-
-<a href="https://ruvia.vercel.app"><img src="assets/ruvia.gif" width="720" alt="Ruvia review: seeded-demo badge, deterministic score, criterion-by-criterion resume evidence, recruiter status"></a>
-
-**The decision:** the LLM finds evidence, deterministic code scores it, and a recruiter makes the call. Ruvia never auto-rejects, and the public demo says plainly that it runs on seeded data.
-<sub>FastAPI · Python · React · TypeScript · Claude</sub>
 
 #### [jt](https://github.com/Nicolercc/jt): a job tracker where the LLM can't write to the database
 [![CI](https://github.com/Nicolercc/jt/actions/workflows/ci.yml/badge.svg)](https://github.com/Nicolercc/jt/actions/workflows/ci.yml)
@@ -67,14 +57,6 @@ A local-first CLI built on an append-only event log.
 **The decision:** official city records and consumer review data never share a field or a panel. The API returns `null` for anything without a source behind it.
 <sub>Next.js · TypeScript · Python · NYC Open Data · Supabase (optional, falls back to a committed seed)</sub>
 
-#### [Sala](https://github.com/Nicolercc/Sala): clinic check-in that can't leak a name to the waiting room
-[![live demo](https://img.shields.io/website?url=https%3A%2F%2Fsala-privacy-board.netlify.app&label=live%20demo&style=flat-square)](https://sala-privacy-board.netlify.app) [![CI](https://github.com/Nicolercc/Sala/actions/workflows/ci.yml/badge.svg)](https://github.com/Nicolercc/Sala/actions/workflows/ci.yml)
-
-<a href="https://sala-privacy-board.netlify.app"><img src="assets/sala.gif" width="720" alt="Sala: trying to send a patient name to the waiting-room board is blocked"></a>
-
-**The decision:** the waiting-room board gets data only through an allow-list projection, and its renderer has no import path to patient records. Tests fail if a sensitive field ever reaches it.
-<sub>React · TypeScript · Vitest · Playwright + axe</sub>
-
 #### [Code4Kidz](https://github.com/Nicolercc/code4kidz): a real HTML course for kids 7–10
 [![live demo](https://img.shields.io/website?url=https%3A%2F%2Fcode4kidz-six.vercel.app&label=live%20demo&style=flat-square)](https://code4kidz-six.vercel.app) [![CI](https://github.com/Nicolercc/code4kidz/actions/workflows/ci.yml/badge.svg)](https://github.com/Nicolercc/code4kidz/actions/workflows/ci.yml)
 
@@ -89,6 +71,8 @@ A local-first CLI built on an append-only event log.
 
 | Project | What it is |
 |---|---|
+| [Ruvia](https://github.com/Nicolercc/ruvia) · [demo](https://ruvia.vercel.app) | Recruiting review: Claude finds resume evidence, Python computes the score, a recruiter decides. 61 tests. |
+| [Sala](https://github.com/Nicolercc/Sala) · [demo](https://sala-privacy-board.netlify.app) | Clinic check-in where the waiting-room board gets data only through an allow-list projection. 11 privacy rules, each enforced by a test. |
 | [writelater](https://github.com/Nicolercc/writelater) | Capture thoughts on the go, then know where to write them in your paper planner. |
 | [Impactify](https://github.com/Nicolercc/impactify2.0) · [demo](https://impactify2-0.vercel.app) | Civic news → context → action. Next.js, Supabase, Claude. |
 | [TripCanvas](https://github.com/Nicolercc/tripcanvas) | Travel planner that tells you whether each day is realistic. Client-side state machine with enforced invariants. |
@@ -108,10 +92,10 @@ My latest merged pull request in each repo. A [GitHub Action](.github/workflows/
 |---|---|---|
 | 2026-11-21 | [jt](https://github.com/Nicolercc/jt) | [Never record an alert as sent when macOS didn't deliver it (T1)](https://github.com/Nicolercc/jt/pull/59) |
 | 2026-11-15 | [vantage](https://github.com/Nicolercc/vantage) | [Browser tests in CI: accessibility, layout and touch at phone and desktop size](https://github.com/Nicolercc/vantage/pull/29) |
-| 2026-11-15 | [ruvia](https://github.com/Nicolercc/ruvia) | [Drive the header mode badge from /api/health](https://github.com/Nicolercc/ruvia/pull/2) |
 | 2026-11-13 | [writelater](https://github.com/Nicolercc/writelater) | [Split ReviewScreen into a controller hook and per-view components](https://github.com/Nicolercc/writelater/pull/14) |
 | 2026-11-12 | [code4kidz](https://github.com/Nicolercc/code4kidz) | [docs: add verified live demo walkthrough](https://github.com/Nicolercc/code4kidz/pull/3) |
-| 2026-11-11 | [Sala](https://github.com/Nicolercc/Sala) | [Walkthrough + two demo fixes: realistic waits, no wait estimate for called patients](https://github.com/Nicolercc/Sala/pull/2) |
+| 2026-11-11 | [Sano](https://github.com/Nicolercc/Sano) | [docs: Lucky Chix walkthrough with the C-to-A timeline](https://github.com/Nicolercc/Sano/pull/4) |
+| 2026-11-11 | [nuclear-shelter-app](https://github.com/Nicolercc/nuclear-shelter-app) | [Fix CI and add tests for blast-zone and distance math](https://github.com/Nicolercc/nuclear-shelter-app/pull/1) |
 <!-- shipped:end -->
 
 ## Open source

@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
     inputs:
       scenes:
-        description: "Scenes to record (space-separated): sala sano ruvia vantage code4kidz"
-        default: "sala sano ruvia vantage code4kidz"
+        description: "Scenes to record (space-separated): sano vantage code4kidz"
+        default: "sano vantage code4kidz"
         required: true
 
 permissions:

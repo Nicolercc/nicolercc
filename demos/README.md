@@ -7,7 +7,7 @@ Each scene in `scenes.mjs` drives a live demo with Playwright and shows one engi
 ```bash
 npm install && npx playwright install chromium   # once
 brew install ffmpeg gifski                       # once
-node scenes.mjs            # record all (or: node scenes.mjs sala vantage)
+node scenes.mjs            # record all (or: node scenes.mjs sano vantage)
 node encode.mjs            # raw/*.webm -> out/*.mp4 + out/*.gif
 cp out/*.gif ../assets/
 ```
