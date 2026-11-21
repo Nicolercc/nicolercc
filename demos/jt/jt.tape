@@ -35,7 +35,7 @@ Enter
 Sleep 4s
 
 Ctrl+L
-Type "# The model is 97% sure Initech sent an onsite invite..."
+Type "# The model reads an Initech email as an onsite invite, 97% confident..."
 Enter
 Sleep 300ms
 Type "jt review"

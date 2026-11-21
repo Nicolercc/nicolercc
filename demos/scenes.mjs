@@ -68,27 +68,34 @@ const scenes = {
     const p = d.page;
     await d.start('https://conflict-analysis-vantage.vercel.app');
     await d.caption('Ask about a conflict in the news.');
-    await d.click(p.getByRole('button', { name: 'Red Sea shipping tensions' }), { pause: 500 });
-    await d.click(p.getByRole('button', { name: 'Run briefing' }), { pause: 1500 });
-    await d.overlay();
-    await d.caption('It retrieves live coverage, then quotes a source for <b>every claim</b>.');
-    await d.wait(2500);
+    await d.wait(1200);
+    await d.type(p.getByPlaceholder(/Sudan, Red Sea/), 'Sudan', 110);
+    await d.wait(400);
+    await d.click(p.getByRole('button', { name: 'Explain this' }), { pause: 0 });
+    await p.getByText('Building your brief', { exact: false }).waitFor({ timeout: 20000 });
+    await d.overlay(); await d.moveTo(640, 360);
+    await d.caption('It finds live reporting, then quotes a source for <b>every fact</b>.');
+    await d.wait(3600);
     await d.fastForward(async () => {
-      await p.waitForFunction(() => !document.body.innerText.includes('Building your brief'), null, { timeout: 180000 });
+      await p.waitForURL(/\/brief\//, { timeout: 180000 });
       await p.waitForLoadState('networkidle').catch(() => {});
       await d.overlay(); await d.wait(1000);
     }, 12);
-    await d.scrollToEl(p.getByRole('heading', { name: 'Key facts' }), 110, 1100);
-    await d.caption('Key facts come <b>from retrieved reporting</b>. Click a number to see the quote.');
-    await d.wait(1200);
-    const cite = p.getByRole('heading', { name: 'Key facts' }).locator('xpath=ancestor::section[1]').getByRole('button').first();
-    await d.click(cite, { pause: 2600 });
-    await d.scrollToEl(p.getByRole('heading', { name: 'Assessment' }), 110, 1300);
-    await d.caption('Anything unsourced is labelled <b>model background</b>, never passed off as reporting.');
-    await d.wait(3000);
-    await d.scrollToEl(p.getByRole('heading', { name: 'Sources' }), 90, 1500);
+    await d.caption(null);
+    await d.wait(1600);
+    const facts = p.getByRole('heading', { name: 'Key facts' });
+    await d.scrollToEl(facts, 110, 1300);
+    await d.caption('Each quote is <b>checked against its source</b>. Press a number to see it.');
+    await d.wait(1400);
+    const cite = facts.locator('xpath=ancestor::*[.//li][1]').getByRole('button').first();
+    await d.click(cite, { pause: 3000 });
+    const sources = p.getByText(/^Sources \(\d+\)$/).first();
+    await d.scrollToEl(sources, 260, 1200);
     await d.caption('Sources are <b>retrieved, not written</b> by the model.');
-    await d.wait(3000);
+    await d.click(sources, { pause: 2800 });
+    await d.scrollToEl(p.getByRole('heading', { name: 'Go deeper' }), 110, 1400);
+    await d.caption('Background from the model is <b>labelled as such</b>, never passed off as reporting.');
+    await d.wait(3400);
   },
 
   async code4kidz(d) {
