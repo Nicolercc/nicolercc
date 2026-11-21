@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img"
+  aria-labelledby="title desc">
+  <title id="title">Nicole Rodriguez: I build AI products that show their evidence.</title>
+  <desc id="desc">Animated diagram. Claims flow from sources through a model to a deterministic check. Supported claims are shown with their source; unsupported ones are held for human review.</desc>
+  <defs>
+    <clipPath id="card"><rect width="1280" height="400" rx="18"/></clipPath>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#D9D4CB"/>
+    </marker>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="400" fill="#FAF8F4"/>
+    <g opacity="0.9"><line x1="20" y1="0" x2="20" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="76" y1="0" x2="76" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="132" y1="0" x2="132" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="188" y1="0" x2="188" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="244" y1="0" x2="244" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="300" y1="0" x2="300" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="356" y1="0" x2="356" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="412" y1="0" x2="412" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="468" y1="0" x2="468" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="524" y1="0" x2="524" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="580" y1="0" x2="580" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="636" y1="0" x2="636" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="692" y1="0" x2="692" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="748" y1="0" x2="748" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="804" y1="0" x2="804" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="860" y1="0" x2="860" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="916" y1="0" x2="916" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="972" y1="0" x2="972" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="1028" y1="0" x2="1028" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="1084" y1="0" x2="1084" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="1140" y1="0" x2="1140" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="1196" y1="0" x2="1196" y2="400" stroke="#EFEBE3" stroke-width="1"/><line x1="1252" y1="0" x2="1252" y2="400" stroke="#EFEBE3" stroke-width="1"/></g>
+
+    <!-- Left: who and what -->
+    <circle cx="72" cy="84" r="5" fill="#9B2C43">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="88" y="89" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" letter-spacing="2.6" fill="#9B2C43">NICOLE RODRIGUEZ · NEW YORK</text>
+    <text font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="54" fill="#16181D" letter-spacing="-1">
+      <tspan x="64" y="168">AI products that</tspan>
+      <tspan x="64" y="232" font-style="italic">show their evidence.</tspan>
+    </text>
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#5B616E">
+      <tspan x="66" y="288">Full-stack engineer. The model proposes, code checks,</tspan>
+      <tspan x="66" y="316">and a person decides anything the code can't prove.</tspan>
+    </text>
+    <text x="66" y="358" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="0.2" fill="#5B616E">TypeScript · React · Python · FastAPI · Postgres · Claude</text>
+
+    <!-- Right: the pattern, animated -->
+    <text x="676" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="2.2" fill="#5B616E">EVERY AI FEATURE I SHIP</text>
+    <path d="M 808 196 H 852" stroke="#D9D4CB" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M 992 196 H 1024" stroke="#D9D4CB" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M 1092 182 L 1112 144" stroke="#D9D4CB" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M 1092 210 L 1112 248" stroke="#D9D4CB" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <circle r="6.5" fill="#16181D" opacity="0">
+    <animateMotion dur="5.4s" begin="0s" repeatCount="indefinite" path="M 742 196 H 1062 L 1112 134 H 1150"/>
+    <animate attributeName="fill" dur="5.4s" begin="0s" repeatCount="indefinite"
+      values="#16181D;#16181D;#23855A;#23855A" keyTimes="0;0.731;0.751;1"/>
+    <animate attributeName="opacity" dur="5.4s" begin="0s" repeatCount="indefinite"
+      values="0;1;1;0;0" keyTimes="0;0.06;0.9;0.97;1"/>
+  </circle>
+    <circle r="6.5" fill="#16181D" opacity="0">
+    <animateMotion dur="5.4s" begin="1.8s" repeatCount="indefinite" path="M 742 196 H 1062 L 1112 134 H 1150"/>
+    <animate attributeName="fill" dur="5.4s" begin="1.8s" repeatCount="indefinite"
+      values="#16181D;#16181D;#23855A;#23855A" keyTimes="0;0.731;0.751;1"/>
+    <animate attributeName="opacity" dur="5.4s" begin="1.8s" repeatCount="indefinite"
+      values="0;1;1;0;0" keyTimes="0;0.06;0.9;0.97;1"/>
+  </circle>
+    <circle r="6.5" fill="#16181D" opacity="0">
+    <animateMotion dur="5.4s" begin="3.6s" repeatCount="indefinite" path="M 742 196 H 1062 L 1112 258 H 1150"/>
+    <animate attributeName="fill" dur="5.4s" begin="3.6s" repeatCount="indefinite"
+      values="#16181D;#16181D;#B26B00;#B26B00" keyTimes="0;0.731;0.751;1"/>
+    <animate attributeName="opacity" dur="5.4s" begin="3.6s" repeatCount="indefinite"
+      values="0;1;1;0;0" keyTimes="0;0.06;0.9;0.97;1"/>
+  </circle>
+
+    <g>
+    <rect x="676" y="162" width="132" height="68" rx="12" fill="#FFFFFF" stroke="#D9D4CB" stroke-width="1.5"/>
+    <text x="742" y="191" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.4" fill="#16181D">SOURCES</text>
+    <text x="742" y="212" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#5B616E">news · resumes · records</text>
+  </g>
+    <g>
+    <rect x="856" y="162" width="136" height="68" rx="12" fill="#FFFFFF" stroke="#D9D4CB" stroke-width="1.5"/>
+    <text x="924" y="191" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.4" fill="#16181D">MODEL</text>
+    <text x="924" y="212" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#5B616E">proposes claims</text>
+  </g>
+    <g>
+      <rect x="1032" y="166" width="60" height="60" rx="8" transform="rotate(45 1062 196)" fill="#FFFFFF" stroke="#16181D" stroke-width="1.8"/>
+      <text x="1062" y="201" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="700" letter-spacing="1" fill="#16181D">CHECK</text>
+      <text x="1062" y="262" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#5B616E">deterministic</text>
+    </g>
+    <g>
+    <rect x="1116" y="100" width="132" height="68" rx="12" fill="#FFFFFF" stroke="#23855A" stroke-width="1.5"/>
+    <text x="1182" y="129" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.4" fill="#23855A">SHOWN</text>
+    <text x="1182" y="150" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#5B616E">with its source [1]</text>
+  </g>
+    <g>
+    <rect x="1116" y="224" width="132" height="68" rx="12" fill="#FFFFFF" stroke="#B26B00" stroke-width="1.5"/>
+    <text x="1182" y="253" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.4" fill="#B26B00">HELD</text>
+    <text x="1182" y="274" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#5B616E">for human review</text>
+  </g>
+
+    <text x="676" y="358" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#5B616E">In Vantage, Ruvia and jt, the model never gets the last word.</text>
+  </g>
+</svg>
