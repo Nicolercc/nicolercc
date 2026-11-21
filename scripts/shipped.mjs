@@ -3,7 +3,7 @@
 // Usage: GITHUB_TOKEN=... node scripts/shipped.mjs
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const USER = 'Nicolercc', COUNT = 6, START = '<!-- shipped:start -->', END = '<!-- shipped:end -->';
+const USER = 'Nicolercc', COUNT = 6, SKIP = ['ruvia', 'Sala'], START = '<!-- shipped:start -->', END = '<!-- shipped:end -->';
 const q = encodeURIComponent(`is:pr is:merged is:public author:${USER} -repo:${USER}/${USER.toLowerCase()}`);
 const res = await fetch(`https://api.github.com/search/issues?q=${q}&sort=updated&order=desc&per_page=100`, {
   headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'profile-readme',
@@ -14,7 +14,7 @@ const { items } = await res.json();
 
 const esc = s => s.replace(/([\\`*_[\]<>|])/g, '\\$1');
 const lines = items
-  .filter(i => i.pull_request?.merged_at)
+  .filter(i => i.pull_request?.merged_at && !SKIP.includes(i.repository_url.split('/').pop()))
   .sort((a, b) => b.pull_request.merged_at.localeCompare(a.pull_request.merged_at))
   .filter((i, n, all) => all.findIndex(j => j.repository_url === i.repository_url) === n)
   .slice(0, COUNT)
