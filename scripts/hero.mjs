@@ -94,7 +94,7 @@ function render(t) {
     ${box(t, 1116, 132, 'SHOWN', 'with its source [1]', { y: Y - 96, color: t.pass, stroke: t.pass })}
     ${box(t, 1116, 132, 'HELD', 'for human review', { y: Y + 28, color: t.hold, stroke: t.hold })}
 
-    <text x="676" y="358" font-family="${SANS}" font-size="13.5" fill="${t.muted}">In Vantage, Ruvia and jt, the model never gets the last word.</text>
+    <text x="676" y="358" font-family="${SANS}" font-size="13.5" fill="${t.muted}">In Vantage and jt, the model never gets the last word.</text>
   </g>
 </svg>
 `;
