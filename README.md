@@ -90,12 +90,12 @@ My latest merged pull request in each repo. A [GitHub Action](.github/workflows/
 <!-- shipped:start -->
 | Merged | Repo | Change |
 |---|---|---|
+| 2026-11-22 | [portfolio-nr](https://github.com/Nicolercc/portfolio-nr) | [T3: homepage copy and structure](https://github.com/Nicolercc/portfolio-nr/pull/14) |
 | 2026-11-21 | [jt](https://github.com/Nicolercc/jt) | [Never record an alert as sent when macOS didn't deliver it (T1)](https://github.com/Nicolercc/jt/pull/59) |
 | 2026-11-15 | [vantage](https://github.com/Nicolercc/vantage) | [Browser tests in CI: accessibility, layout and touch at phone and desktop size](https://github.com/Nicolercc/vantage/pull/29) |
 | 2026-11-13 | [writelater](https://github.com/Nicolercc/writelater) | [Split ReviewScreen into a controller hook and per-view components](https://github.com/Nicolercc/writelater/pull/14) |
 | 2026-11-12 | [code4kidz](https://github.com/Nicolercc/code4kidz) | [docs: add verified live demo walkthrough](https://github.com/Nicolercc/code4kidz/pull/3) |
 | 2026-11-11 | [Sano](https://github.com/Nicolercc/Sano) | [docs: Lucky Chix walkthrough with the C-to-A timeline](https://github.com/Nicolercc/Sano/pull/4) |
-| 2026-11-11 | [nuclear-shelter-app](https://github.com/Nicolercc/nuclear-shelter-app) | [Fix CI and add tests for blast-zone and distance math](https://github.com/Nicolercc/nuclear-shelter-app/pull/1) |
 <!-- shipped:end -->
 
 ## Open source
